@@ -1,0 +1,26 @@
+1.post - create expense - http://localhost:7777/expense/crExpense
+{
+    "title": "vegetables",
+    "amount": 1500.00,
+    "category": "cooking",
+    "expenseDate": "2026-10-8",
+    "paymentMode": "phpay"
+}
+****************************************************************************
+2.get - get all expenses - http://localhost:7777/expense/getExpenses
+****************************************************************************
+3.get - get all expenses by id - http://localhost:7777/expense/getExpense/3
+*****************************************************************************
+4.Delete - delete expense - http://localhost:7777/expense/delEx/3
+*****************************************************************************
+5.put - update expense - http://localhost:7777/expense/updateEx/1
+{
+        "amount": 4500.50,
+        "category": "Food",
+        "expenseDate": "2026-11-12",
+         "paymentMode": "UPI",
+        "title": "Grocery Shopping + vegtables"
+    }
+**********************************************************************************
+6.get - get expense by category - http://localhost:7777/expense/getExpense/1
+*********************************************************************************
