@@ -1,0 +1,4 @@
+create database SpendSensedata;
+use SpendSensedata;
+
+select * from expense;
